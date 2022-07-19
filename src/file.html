@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+
+<form method="POST" action="./index.php" >
+
+    <label id="name"> Nome:</label>
+    <input type="text" name="name" id="name" >
+    <br>
+
+    <label id="name">Estado</label>
+    <select name="stade" id="select">
+        <option value="RJ" name="RJ">RJ</option>
+        <option value="SP" name="SP">SP</option>
+        <option value="MS" name="MS">MS</option>
+        <option value="GO" name="GO">GO</option>
+        <option value="SC" name="SC">SC</option>
+    </select>
+
+    <br>
+    <label id="name">Idade </label>
+    <input type="number" name="age" id="age" min="0" max="100">
+
+    <br>
+    <label id="name">CPF </label>
+    <input type="text" name="cpf_number" id="cpf_number">
+    <br>
+
+    <input type="submit" value="OK" >
+
+    <script type="text/javascript" src="script.js"></script>
+</form>
+</body>
+</html>
